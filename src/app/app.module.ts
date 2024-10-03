@@ -14,6 +14,7 @@ import {CitylistComponent} from "./components/citylist/citylist.component";
 import {MovielistComponent} from "./components/movielist/movielist.component";
 import {CarmodellistComponent} from "./components/carmodellist/carmodellist.component";
 import {ProductlistComponent} from "./components/productlist/productlist.component";
+import {SubjectlistComponent} from "./components/subjectlist/subjectlist.component";
 
 
 
@@ -27,7 +28,7 @@ const routes: Route[] = [
   {path: 'Movielist', component: MovielistComponent},
   {path: 'Carmodellist', component: CarmodellistComponent},
   {path: 'Productlist', component: ProductlistComponent},
-
+  {path: 'Subjectlist', component: SubjectlistComponent},
 
 ]
 
@@ -50,7 +51,8 @@ const routes: Route[] = [
     CitylistComponent,
     MovielistComponent,
     CarmodellistComponent,
-    ProductlistComponent
+    ProductlistComponent,
+    SubjectlistComponent,
 
   ],
 
