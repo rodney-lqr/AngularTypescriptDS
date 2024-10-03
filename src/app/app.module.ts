@@ -13,6 +13,7 @@ import {BooklistComponent} from "./components/booklist/booklist.component";
 import {CitylistComponent} from "./components/citylist/citylist.component";
 import {MovielistComponent} from "./components/movielist/movielist.component";
 import {CarmodellistComponent} from "./components/carmodellist/carmodellist.component";
+import {ProductlistComponent} from "./components/productlist/productlist.component";
 
 
 
@@ -25,6 +26,8 @@ const routes: Route[] = [
   {path: 'Citylist', component: CitylistComponent},
   {path: 'Movielist', component: MovielistComponent},
   {path: 'Carmodellist', component: CarmodellistComponent},
+  {path: 'Productlist', component: ProductlistComponent},
+
 
 ]
 
@@ -47,7 +50,7 @@ const routes: Route[] = [
     CitylistComponent,
     MovielistComponent,
     CarmodellistComponent,
-
+    ProductlistComponent
 
   ],
 
