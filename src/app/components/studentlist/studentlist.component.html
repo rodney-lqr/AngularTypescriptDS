@@ -1,0 +1,14 @@
+<div style="margin: 10px">
+  <input type="text" [(ngModel)]="newName" placeholder="Enter name" />
+  <button style="margin: 4px" class="btn btn-primary" (click)="addName()">Add Name</button>
+</div>
+
+<table border="2" style="margin: 10px">
+  <thead>
+  </thead>
+  <tbody>
+  <tr *ngFor="let name of names">
+    <td>{{ name }}</td>
+  </tr>
+  </tbody>
+</table>
