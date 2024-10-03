@@ -10,6 +10,7 @@ import {EmployeelistComponent} from "./components/employeelist/employeelist.comp
 import {FruitlistComponent} from "./components/fruitlist/fruitlist.component";
 import {CourselistComponent} from "./components/courselist/courselist.component";
 import {BooklistComponent} from "./components/booklist/booklist.component";
+import {CitylistComponent} from "./components/citylist/citylist.component";
 
 
 
@@ -19,7 +20,7 @@ const routes: Route[] = [
   {path: 'Fruitlist', component: FruitlistComponent},
   {path: 'Courselist', component: CourselistComponent},
   {path: 'Booklist', component: BooklistComponent},
-
+  {path: 'Citylist', component: CitylistComponent},
 ]
 
 @NgModule({
@@ -38,6 +39,7 @@ const routes: Route[] = [
     FruitlistComponent,
     CourselistComponent,
     BooklistComponent,
+    CitylistComponent,
 
   ],
 
