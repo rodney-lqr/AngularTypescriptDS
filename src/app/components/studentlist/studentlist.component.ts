@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class StudentlistComponent {
 
-  names: string[] = ['Rodney Idanan', 'Kim So Hyun'];
+  names: string[] = ['Rodney Idanan', 'Kim So Hyun', 'Morty Smith'];
   newName: string = '';
 
   addName() {
