@@ -7,12 +7,15 @@ import {Route, RouterModule} from "@angular/router";
 import { StudentlistComponent } from "./components/studentlist/studentlist.component";
 import {FormsModule} from "@angular/forms";
 import {EmployeelistComponent} from "./components/employeelist/employeelist.component";
+import {FruitlistComponent} from "./components/fruitlist/fruitlist.component";
 
 
 
 const routes: Route[] = [
   {path: 'Studentlist', component: StudentlistComponent},
   {path: 'Employeelist', component: EmployeelistComponent},
+  {path: 'Fruitlist', component: FruitlistComponent},
+
 ]
 
 @NgModule({
@@ -28,6 +31,7 @@ const routes: Route[] = [
     AppComponent,
     StudentlistComponent,
     EmployeelistComponent,
+    FruitlistComponent,
 
   ],
 
