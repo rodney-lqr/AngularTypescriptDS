@@ -37,6 +37,7 @@ import {LaptoplistComponent} from "./components/laptoplist/laptoplist.component"
 import {LaptopspecificationlistComponent} from "./components/laptopspecificationlist/laptopspecificationlist.component";
 import {ComputerhardwarelistComponent} from "./components/computerhardwarelist/computerhardwarelist.component";
 import {MobileapplistComponent} from "./components/mobileapplist/mobileapplist.component";
+import {VideolistComponent} from "./components/videolist/videolist.component";
 
 
 
@@ -73,6 +74,8 @@ const routes: Route[] = [
   {path: 'Laptopspecificationlist', component: LaptopspecificationlistComponent},
   {path: 'Computerhardwarelist', component: ComputerhardwarelistComponent},
   {path: 'Mobileapplist', component: MobileapplistComponent},
+  {path: 'Videolist', component: VideolistComponent},
+
 
 ]
 
@@ -119,6 +122,7 @@ const routes: Route[] = [
     LaptopspecificationlistComponent,
     ComputerhardwarelistComponent,
     MobileapplistComponent,
+    VideolistComponent,
 
   ],
 
