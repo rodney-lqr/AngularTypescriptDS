@@ -52,6 +52,7 @@ import {BudgetlistComponent} from "./components/budgetlist/budgetlist.component"
 import {PresentationlistComponent} from "./components/presentationlist/presentationlist.component";
 import {TourlistComponent} from "./components/tourlist/tourlist.component";
 import {EventlistComponent} from "./components/eventlist/eventlist.component";
+import {DevelopertoollistComponent} from "./components/developertoollist/developertoollist.component";
 
 
 
@@ -103,6 +104,7 @@ const routes: Route[] = [
   {path: 'Presentationlist', component: PresentationlistComponent},
   {path: 'Tourlist', component: TourlistComponent},
   {path: 'Eventlist', component: EventlistComponent},
+  {path: 'Developertoollist', component: DevelopertoollistComponent},
 
 ]
 
@@ -164,6 +166,7 @@ const routes: Route[] = [
     PresentationlistComponent,
     TourlistComponent,
     EventlistComponent,
+    DevelopertoollistComponent,
 
   ],
 
