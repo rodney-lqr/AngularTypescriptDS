@@ -48,6 +48,7 @@ import {ComposerlistComponent} from "./components/composerlist/composerlist.comp
 import {PodcastlistComponent} from "./components/podcastlist/podcastlist.component";
 import {ExerciselistComponent} from "./components/exerciselist/exerciselist.component";
 import {MealplanlistComponent} from "./components/mealplanlist/mealplanlist.component";
+import {BudgetlistComponent} from "./components/budgetlist/budgetlist.component";
 
 
 
@@ -95,6 +96,7 @@ const routes: Route[] = [
   {path: 'Podcastlist', component: PodcastlistComponent},
   {path: 'Exerciselist', component: ExerciselistComponent},
   {path: 'Mealplanlist', component: MealplanlistComponent},
+  {path: 'Budgetlist', component: BudgetlistComponent},
 
 ]
 
@@ -152,6 +154,7 @@ const routes: Route[] = [
     PodcastlistComponent,
     ExerciselistComponent,
     MealplanlistComponent,
+    BudgetlistComponent,
 
   ],
 
