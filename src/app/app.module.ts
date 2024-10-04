@@ -42,6 +42,7 @@ import {TvshowlistComponent} from "./components/tvshowlist/tvshowlist.component"
 import {FurniturelistComponent} from "./components/furniturelist/furniturelist.component";
 import {AccessorylistComponent} from "./components/accessorylist/accessorylist.component";
 import {BuildinglistComponent} from "./components/buildinglist/buildinglist.component";
+import {PaintinglistComponent} from "./components/paintinglist/paintinglist.component";
 
 
 
@@ -83,6 +84,8 @@ const routes: Route[] = [
   {path: 'Furniturelist', component: FurniturelistComponent},
   {path: 'Accessorylist', component: AccessorylistComponent},
   {path: 'Buildinglist', component: BuildinglistComponent},
+  {path: 'Paintinglist', component: PaintinglistComponent},
+
 ]
 
 @NgModule({
@@ -133,6 +136,7 @@ const routes: Route[] = [
     FurniturelistComponent,
     AccessorylistComponent,
     BuildinglistComponent,
+    PaintinglistComponent,
 
   ],
 
